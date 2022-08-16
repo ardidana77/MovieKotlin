@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Data Ardi/Kerjaan/IT/android/MovieKotlin/app/src/main/res/layout/activity_list.xml" value="0.278125" />
+        <entry key="..\:/Data Ardi/Kerjaan/IT/android/MovieKotlin/app/src/main/res/layout/activity_main.xml" value="0.2640625" />
+        <entry key="..\:/Data Ardi/Kerjaan/MObile Dev/MovieKotlin/app/src/main/res/layout/activity_list.xml" value="0.12864583333333332" />
+        <entry key="..\:/Data Ardi/Kerjaan/MObile Dev/MovieKotlin/app/src/main/res/layout/activity_main.xml" value="0.278125" />
+        <entry key="..\:/Data Ardi/Kerjaan/MObile Dev/MovieKotlin/app/src/main/res/layout/layout_rv_item.xml" value="0.278125" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_detail_film.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_detail_people.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_detail_planet.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_detail_species.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_detail_starship.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_detail_vehicles.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_film_list.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_main.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_peoplelist.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_planet_list_acitvity.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_species_list.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_starship_list.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/activity_vehicles_list.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_filmcharacter.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_filmplanet.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_filmspecies.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_filmstartship.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_filmvehicles.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_peoplefilm.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_peoplespecies.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_peoplestarship.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_peoplevehicles.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_planetfilm.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_planetprofile.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_planetresident.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_profilefilm.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_profilpeople.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_speciesfilm.xml" value="0.1" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_speciespeople.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_speciesprofile.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_starshippilot.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_starshipprofile.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_startshipfilms.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_vehiclesfilms.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_vehiclespilot.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/fragment_vehiclesprofile.xml" value="0.20018115942028986" />
+        <entry key="..\:/Data IT/Mobile Project/MovieKotlin/app/src/main/res/layout/layout_rv_item.xml" value="0.20018115942028986" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

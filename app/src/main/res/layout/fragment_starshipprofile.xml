@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StarshipProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profle Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilestarshipsname"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipmodel"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manufacture :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manufacture Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipmanufacture"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cost :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cost Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipcost"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lenght :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="length Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipleng"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Speed :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Speed Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipspeed"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crew :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crew Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipcrew"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshippassenger"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capacity :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capacity Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipcapa"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consumable :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consumable Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipconsum"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hyperdrive :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hyperdrive Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshiphyper"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MGLT :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MGLT Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipmglt"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Class :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Class Starship"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofileStarshipclass"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

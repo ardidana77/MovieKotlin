@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moviekotlin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MovieKotlin">
+        <activity
+            android:name=".DetailStarshipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailVehiclesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailSpeciesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailPlanetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailFilmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailPeopleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StarshipListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VehiclesListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpeciesListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FilmListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlanetListAcitvity"
+            android:exported="false" />
+        <activity
+            android:name=".PeopleListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

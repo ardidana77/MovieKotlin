@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VehiclesProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profle Vehicle"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclesname"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclesmodel"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manufacture :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manufacture Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclesmanufacture"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cost :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cost Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclescost"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lenght :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="length Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclesleng"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Speed :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Speed Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclesspeed"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crew :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crew Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclescrew"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passenger Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclespassenger"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capacity :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capacity Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclescapa"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consumable :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consumable Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclesconsum"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Class :"
+                    android:textSize="10pt"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Class Vehicles"
+                    android:textAlignment="center"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:id="@+id/textprofilevehiclesclass"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

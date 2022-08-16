@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CATEGORY"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvHello"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPeople"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="People"
+                android:textSize="9pt"
+                android:onClick="listPoeple"/>
+
+            <Button
+                android:id="@+id/btnPlanet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Planet"
+                android:textSize="9pt"
+                android:onClick="ListPlanet"/>
+
+            <Button
+                android:id="@+id/btnFilm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Film"
+                android:textSize="9pt"
+                android:onClick="listFilms"/>
+
+            <Button
+                android:id="@+id/btnSpecies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Species"
+                android:textSize="9pt"
+                android:onClick="ListSpecies"/>
+
+            <Button
+                android:id="@+id/btnVehicles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Vehicles"
+                android:textSize="9pt"
+                android:onClick="ListVehicles"/>
+
+            <Button
+                android:id="@+id/btnStarship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="Starship"
+                android:textSize="9pt"
+                android:onClick="ListStarships"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
